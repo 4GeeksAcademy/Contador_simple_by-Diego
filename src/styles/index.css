@@ -80,7 +80,14 @@ button{
     font-size: 1rem;
     font-weight: 700;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
 
+}
+
+button:hover{
+    transform: scale(1.05);
+    opacity: 0.85;
 }
 
 .Red{

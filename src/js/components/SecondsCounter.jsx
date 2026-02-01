@@ -12,7 +12,6 @@ function SecondsCounter({ seconds, pause, resume, reset }) {
                     <i className="fa-regular fa-clock"></i>
 
                 </div>
-
                 <div className="digitosTiempo">
 
                     {digitos.map((digito, index) => (
